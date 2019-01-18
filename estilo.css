@@ -1,0 +1,115 @@
+@charset "utf-8";
+
+body {
+  background-color:hsl(41, 100%, 89%);
+}
+div.abc {
+  padding-bottom: 30px;
+  background: url("img/naranja2.svg") repeat-x bottom;
+  background-size: 30px, auto;
+  color: hsl(125, 100%, 15%);
+}
+p:hover {
+    z-index: 3;
+  }
+
+h1 {
+  font: oblique bold 175% cursive;
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 183, 89);
+  text-align: center;
+  padding-bottom: 1%; 
+  padding-top: 1%;
+  text-shadow: red 3px 0;
+}
+a{
+  padding: 5%;
+  font-size: 20px;
+}
+p.uno {
+  padding: 10px;
+  font-size: 1.5rem;
+  float: left;
+}
+
+p.arriba {
+  letter-spacing: 5px;
+  padding: 96px;
+  font-size: 1.5rem;
+  float: left;
+  background: url("img/naranja.png") repeat-y right, url("img/naranja.png") repeat-y left;
+  color: hsl(52, 100%, 50%);
+  background-size: 85px;
+
+}
+
+p#arriba {
+  text-decoration: underline;
+  position: absolute;
+  top: 20%;
+  left: 32%;
+  width: 35%;
+  height: 30%;
+  z-index: 2;
+  border: red solid;
+  background-color: hsl(32, 100%, 83%);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 62, 62);
+  font-size: 20px;
+}
+nav{
+  padding: 20px 55px;
+    background-color: hsl(59, 100%, 50%);
+    border: rgb(255, 0, 0) 5px solid;
+    text-align: center;
+    margin-top: -1%;
+}
+
+p#izquierda {
+  letter-spacing: 5px;
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  width: 35%;
+  height: 25%;
+  border: hsla(83, 98%, 37%, 0.774) 4px solid;
+  background-color: hsl(64, 100%, 80%);
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 182, 87);
+  font-size: 20px;
+}
+
+p#derecha {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  width: 35%;
+  height: 25%;
+  border: hsl(192, 100%, 50%) 4px solid;
+  background-color: hsl(192, 100%, 86%);
+  text-align: right;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 165, 62);
+  font-size: 20px;
+}
+
+ul{
+  position: absolute;
+  bottom: 5%;
+  width: 97%;
+  list-style-type: upper-roman;
+  background-color: hsla(32, 100%, 66%, 0.973);
+  color: rgb(38, 0, 255);
+}
+div.a{
+  padding-bottom: 30px;
+  background: url("") repeat-x bottom, url("img/naranja2.svg") repeat;
+  background-size: 100px, auto;
+}
+
+div.s2 {
+  background: url("img/naranja.png") repeat-x right, url("fondos/fuego.svg") no-repeat bottom left, url("img/naranja.png");
+  color: hsl(52, 100%, 50%);
+}
